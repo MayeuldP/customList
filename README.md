@@ -1,6 +1,10 @@
 
 Vous pouvez tester ce projet directement via l'appli expo en vous rendant sur cette page : https://expo.io/@mayeuldp/lendixproject
 
+Ou bien en scannant directement ce QR code via l'application mobile expo.
+
+<img src="../master/flags/code.PNG" width="200px">
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
