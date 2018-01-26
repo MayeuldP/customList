@@ -125,7 +125,7 @@ export default class App extends React.Component {
                 <Text style={{color: grade_color}}>{projects.grade}</Text>
             </View>
         </View >
-            </TouchableNativeFeedback>
+      </TouchableNativeFeedback>
 
     );
   }
@@ -177,20 +177,20 @@ const styles = StyleSheet.create({
     marginBottom:20,
     marginLeft:10,
     marginTop:20
-},
-flag: {
-    borderRadius: 1,
-    marginTop:85,
-    marginLeft:50,
-},
-circle: {
+  },
+  flag: {
+      borderRadius: 1,
+      marginTop:85,
+      marginLeft:50,
+  },
+  circle: {
     borderColor: '#d6d7da',
     borderRadius: 14,
     borderWidth: 15,
     backgroundColor : '#F1F5F8',
     marginTop:85,
     marginLeft:50,
-},
+  },
 	elemBlistView: {
     width:150,
     paddingBottom:20,

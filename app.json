@@ -1,5 +1,9 @@
 {
   "expo": {
-    "sdkVersion": "25.0.0"
+    "sdkVersion": "25.0.0",
+    "icon": "./flags/favicon.png",
+    "android": {
+      "package": "com.mayeul.lendixtechnical"
+    }
   }
 }
