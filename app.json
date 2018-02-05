@@ -4,6 +4,7 @@
     "icon": "./flags/favicon.png",
     "android": {
       "package": "com.mayeul.lendixtechnical"
-    }
+    },
+    "description" : "Projet Lendix en cours"
   }
 }
