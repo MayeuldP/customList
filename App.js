@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image, ListView, TouchableNativeFeedback, Alert } from 'react-native';
+import { StyleSheet, Text, View, Image, ListView, TouchableNativeFeedback, Alert, TouchableHighlight } from 'react-native';
 import moment from 'moment';
 import 'moment/locale/fr';
 
@@ -93,9 +93,9 @@ export default class App extends React.Component {
     }
 
     return (
-        <TouchableNativeFeedback
-        onPress={() => this._onPressButton(projects, endDate)}
-        background={TouchableNativeFeedback.SelectableBackground()}>
+        <TouchableHighlight
+        underlayColor='transparent'
+        onPress={() => this._onPressButton(projects, endDate)}>
         <View  style={styles.rowMainView}>
             <View style={styles.illustration}>
               <Image
@@ -125,7 +125,7 @@ export default class App extends React.Component {
                 <Text style={{color: grade_color}}>{projects.grade}</Text>
             </View>
         </View >
-      </TouchableNativeFeedback>
+      </TouchableHighlight>
 
     );
   }
